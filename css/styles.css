@@ -225,12 +225,14 @@ footer .mail:focus {
 .hero {
   width: 100%;
   background: var(--bg-color2);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   position: relative;
   width: 696px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding-bottom: 40px;
   font-weight: var(--font-ultra-bold);
   font-size: 44px;
   line-height: 1.36;
