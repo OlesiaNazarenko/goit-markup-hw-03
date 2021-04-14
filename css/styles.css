@@ -46,7 +46,7 @@ img{
 }
 /* Header */
 header {
-  padding: 32px 0;
+  padding: 24px 0 25px 0;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: var(--border-color);
@@ -61,6 +61,7 @@ header .list-contacts a:focus {
 }
 ul {
   list-style-type: none;
+  margin:0;
 }
 /* Navigation*/
 nav {
@@ -101,8 +102,7 @@ header .list-contacts {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left:auto;
-  margin-top:-30px;
-  margin-bottom:0;
+  margin-top:-20px;
   padding:0;
 }
 
@@ -154,7 +154,7 @@ header .list-contacts {
   position: relative;
  /* width: 370px;*/
   height: 404px;
-  margin-bottom: 50px; 
+  margin-bottom: 30px; 
   flex-basis: calc(100% / 3 - var(--projects-item-gap));
 }
 .list-projects-item:nth-last-child(-n+3){ margin-bottom: 0; }
@@ -175,7 +175,7 @@ header .list-contacts {
 .project-content{
   border:1px solid var(--border-color2);
   border-top:1px solid transparent;
-  padding:30px 25px 30px 25px; 
+  padding:20px 24px; 
 }
 /* Main Portfolio page*/
 /*Footer*/
@@ -183,7 +183,7 @@ footer {
   position: relative;
   background:var(--bg-color2);
   color:var(--bg-color1);
-  padding: 65px 0;
+  padding: 60px 0;
 }
 footer .logo {
   color: var(--bg-color1);
@@ -296,6 +296,8 @@ footer .mail:focus {
   }
 .pictures-title {
   font-weight:var(--font-bold);
+  margin-top:0;
+  margin-bottom:50px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -321,27 +323,26 @@ footer .mail:focus {
 }
 .team-subtitle,
 .team-text {
+  margin:0;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 .team-content{
-  padding:15px 0;
+  padding:30px 0;
 }
-.team-subtitle{font-weight: var(--font-medium); }
+.team-subtitle{font-weight: var(--font-medium); margin-bottom:15px; }
 .team .team-text {
   color: var(--color3);
   font-weight: var(--font-normal);
 }
 .team-title {
   position: relative;
-  width: 265px;
-  margin:0 auto;
+  text-align: center;
+  margin: 0 auto 50px auto;
   font-weight:var(--font-bold);
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom:35px;
-}
+  }
 /* Index.html*/
